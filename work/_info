@@ -1,0 +1,374 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mimo2\OneDrive\Desktop\UofT\Yr_2\Fall\ECE241\Project\connect_four
+vadd_piece
+!i10b 1
+Z1 !s100 X1kmM:l>;]5DF^BeH?H1V1
+Z2 I`@a5j62`oon2B[jGM@zIl3
+Z3 VzD1KE0XSe5B^TZMb3MV;H0
+Z4 dC:\Users\mimo2\OneDrive\Desktop\UofT\Yr_2\Fall\ECE241\Project\connect_four
+Z5 w1701439211
+Z6 8display_controller.v
+Z7 Fdisplay_controller.v
+Z8 L0 489
+Z9 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z10 !s108 1701439218.716000
+Z11 !s107 C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Lab2_Q/Part3/part3.v|PS2.v|Board_Mem.v|vga_all.v|buffer1.v|buffer0.v|display_controller.v|FSM.v|Connect_Four.v|
+Z12 !s90 -reportprogress|300|Connect_Four.v|FSM.v|display_controller.v|buffer0.v|buffer1.v|vga_all.v|Board_Mem.v|PS2.v|C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Lab2_Q/Part3/part3.v|
+!s101 -O0
+o-O0
+vBoard_Mem
+!i10b 1
+Z13 !s100 Od[L4Q5Z^H1f>g2ENSCRJ1
+Z14 IN89F6QT8e[>cibV<[zWL50
+Z15 V8fc7Wz`PXj9;UC?0kkIN90
+R4
+Z16 w1701437234
+Z17 8Board_Mem.v
+Z18 FBoard_Mem.v
+L0 39
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z19 n@board_@mem
+vBuffer0
+!i10b 1
+Z20 !s100 >DF>4An[W>bKLXWl>Cd:>0
+Z21 IhJH44MEP>[1672;@[Fm8h2
+Z22 VW;:`nLNOK9_mg9J;KdILf2
+R4
+Z23 w1701363046
+Z24 8buffer0.v
+Z25 Fbuffer0.v
+L0 39
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z26 n@buffer0
+vBuffer1
+!i10b 1
+Z27 !s100 _gI:c1B^OjDoCcDEPJ3K42
+Z28 I:3Y=l8Qjo[4PiGI?:3]F33
+Z29 V37<<d`bN<^ZN5@=HFN=d=3
+R4
+Z30 w1701363040
+Z31 8buffer1.v
+Z32 Fbuffer1.v
+L0 39
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z33 n@buffer1
+vcheck_winner
+!i10b 1
+!s100 VZh2K>c`Sj<O16NId<A`O3
+IPIb9YE9J2A39g]FIlDZQc1
+Z34 VW7XXbHcYR=e`a16H[4GgP3
+R4
+R5
+R6
+R7
+Z35 L0 265
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vConnect_Four
+!i10b 1
+Z36 !s100 aOmai^h<_c;>I^DzJTJ460
+Z37 I>Zo?Km21JA1nPXnOJjX7m3
+Z38 VCD[IZzH?>maoGO`YE9hd?2
+R4
+Z39 w1701436713
+Z40 8Connect_Four.v
+Z41 FConnect_Four.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z42 n@connect_@four
+vDisplay_Controller
+!i10b 1
+Z43 !s100 hPV2JX51Ma6fC::I>ce:31
+Z44 Ij6mU5k?a_GXR9h>>LOzW70
+Z45 V7?48]Ik63g<bT2DORNnOM2
+R4
+R5
+R6
+R7
+L0 3
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z46 n@display_@controller
+vdraw_screen
+!i10b 1
+Z47 !s100 KUo2fYa;58o7zP_9ILh]H1
+Z48 I=gO4koZUfN?nI`7AV^`_z2
+Z49 VJ52V_2>PS?CIBRAKBTe<Q3
+R4
+R5
+R6
+R7
+Z50 L0 745
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vdrop_piece
+!i10b 1
+Z51 !s100 Pd_809B0SL>Y3zV_Zn^W]2
+Z52 I`4daW2<5U0QZkC8@CoW6L0
+Z53 VcBBD?0lKc`4ZcJQ[blhK[2
+R4
+R5
+R6
+R7
+Z54 L0 702
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vFSM_DP
+!i10b 1
+Z55 !s100 Hbh;Ub]h73:LK]K^_I0<l3
+Z56 IcWfTf:AZd`zEdeNT8P;3[3
+Z57 VaKIOTc1RSM5E>T6XmV9Z53
+R4
+Z58 w1701289339
+Z59 8FSM.v
+Z60 FFSM.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z61 n@f@s@m_@d@p
+vget_colour
+!i10b 1
+Z62 !s100 RYmF>1PPIR[]a6QRdOa1i1
+Z63 IjKTAZR35aF=<iOLz5Y4910
+Z64 V3e=HP<]o5_>cWjld6U`kD3
+R4
+R5
+R6
+R7
+Z65 L0 655
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vhex_decoder
+!i10b 1
+Z66 !s100 7>Ic3k`9Nl_Ch>U@RD7h81
+Z67 IYjE4Eo?AFKjDV8ai1:Zl53
+Z68 VD3NnV[4F`UY1UO]UO?20D1
+R4
+Z69 w1700269409
+Z70 8C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Lab2_Q/Part3/part3.v
+Z71 FC:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Lab2_Q/Part3/part3.v
+L0 11
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vkey_to_two
+!i10b 1
+Z72 !s100 VCC?>`>TlmEe<ZP2DM7aK2
+Z73 IYX@X=F^KIM5`F1SllNIiC0
+Z74 V7U;fAaW]UAeM2MEUDGV`O0
+R4
+Z75 w1701359040
+Z76 8PS2.v
+Z77 FPS2.v
+Z78 L0 297
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vmux
+!i10b 1
+Z79 !s100 Uk8WFh?NZV6eQeIGKhzPh0
+Z80 INTYScQ]0ohG4bDVdO:gA>1
+Z81 V9IJJcj]STQD<oz7L9SX8f2
+R4
+R69
+R70
+R71
+L0 3
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vPS2
+!i10b 1
+Z82 !s100 W6D`d_`Nei0P6`iLJ]E5`1
+Z83 I;CLIOKjQaCo4UIVL8h=Se0
+Z84 VD^BXl?cJD:_bfz<;4YBom0
+R4
+R75
+R76
+R77
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z85 n@p@s2
+vPS2_Decoder
+!i10b 1
+Z86 !s100 ]iEg8gkK25aE_l<[NMO0;3
+Z87 Ib@?Yd`mNAa@S3l><0<nf:2
+Z88 VY:7nN:`I4Wm]E_T[<5B772
+R4
+R75
+R76
+R77
+L0 40
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+Z89 n@p@s2_@decoder
+vvga_controller
+!i10b 1
+Z90 !s100 g4]a@6E<liKOCZo3<_cCd2
+Z91 I>_S9_`kI=LRaA4<Dcc2>d2
+Z92 VL7L5a<LN20XXLJ_NI3KWl3
+R4
+Z93 w1701436445
+Z94 8vga_all.v
+Z95 Fvga_all.v
+L0 66
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vvga_master
+!i10b 1
+Z96 !s100 U4]RGC2_BlCBbjhOm1A3^0
+Z97 IEFV6UEJbUW3[NWeTe6]ne1
+Z98 VzTMKYURAObF`I6l`fhH[o2
+R4
+R93
+R94
+R95
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0
+vvga_plotter
+!i10b 1
+Z99 !s100 lbVmg<><m2`Z=f?TNWRe]2
+Z100 IM2bSo=AB75XZD=ODc01GQ1
+Z101 V2=3U`Q=RVKDYM6KX4i>n^2
+R4
+R93
+R94
+R95
+Z102 L0 144
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+o-O0

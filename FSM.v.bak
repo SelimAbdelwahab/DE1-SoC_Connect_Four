@@ -1,0 +1,80 @@
+module FSM(
+	input bt[1:0], 
+	input winner,
+	output reg turn
+);
+	turn = 1'b0;
+	reg curr[3:0], next[3:0];
+	//state table
+	localparam 	StrtGm = 4'b0000, start_wait = 4'b0001, red_turn = 4'b0010, red_turn_wait = 4'b0011, 
+				yellow_turn = 4'b0100, yellow_turn_wait = 4'b0101, move_left = 4'b0110, move_left_wait = 4'b0111,
+				move_right = 4'b1000, move_right_wait = 4'b1001, check_winner = 4'b1010, gameover = 4'b1011;
+		   
+	
+	
+	always@(*)
+	
+	begin: state_table
+		case(curr)
+			StrtGm: begin 
+				if(b == 2'b00) next = StrtGm;
+				if(b == 2'b11) next = start_wait;
+					end
+			
+			start_wait: begin
+				if(b == 2'b11) next = start_wait;
+				if(b == 2'b00) next = red_turn;
+			end
+			red_turn: begin
+				if(b == 2'b11) next = red_turn_wait;
+				if(b == 2'b00) next = red_turn;
+				if(b == 2'b01) next = move_right;
+				if(b == 2'b10) next = move_left;
+			end
+			red_turn_wait: begin //should set turn = 0
+				if(b == 2'b11) next = red_turn_wait;
+				if(b == 2'b00) next = check_winner;
+			end
+			yellow_turn: begin 
+				if(b == 2'b11) next = yellow_turn_wait;
+				if(b == 2'b00) next = yellow_turn;
+				if(b == 2'b01) next = move_right;
+				if(b == 2'b10) next = move_left;
+			end
+			yellow_turn_wait: begin //should set turn = 1
+				if(b == 2'b11) next = yellow_turn_wait;
+				if(b == 2'b00) next = check_winner;
+			end
+			check_winner: begin
+				if(winner == 0 && turn == 1) next = red_turn;
+				if(winner == 0 && turn == 0) next = yellow_turn;
+				if(winner == 1) next = gameover;
+			end
+			gameover: begin
+				//go back to new game after displaying winner screen
+			end
+			move_left: begin
+				if(b == 2'b00) next = move_left_wait;
+				if(b == 2'b10) next = move_left;
+			end
+			move_left_wait: begin
+				if(b == 2'b00) next = move_left_wait;
+				if(b == 2'b10) next = move_left;
+				if(b == 2'b01) next = move_right;
+				if(b == 2'b11 && turn == 1) next = red_turn_wait;
+				if(b == 2'b11 && turn == 0) next = yellow_turn_wait;
+			end
+			move_right: begin
+				if(b == 2'b00) next = move_right_wait;
+				if(b == 2'b10) next = move_right;
+			end
+			move_right_wait: begin
+				if(b == 2'b00) next = move_right_wait;
+				if(b == 2'b10) next = move_left;
+				if(b == 2'b01) next = move_right;
+				if(b == 2'b11 && turn == 1) next = red_turn_wait;
+				if(b == 2'b11 && turn == 0) next = yellow_turn_wait;
+			end
+			
+		endcase
+	end

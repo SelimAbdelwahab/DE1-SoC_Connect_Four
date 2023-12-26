@@ -1,0 +1,74 @@
+MIF/HEX Update report for Connect_Four
+Fri Dec 01 16:40:41 2023
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Fri Dec 01 16:40:41 2023 ;
+; Revision Name         ; Connect_Four                          ;
+; Top-level Entity Name ; Connect_Four                          ;
+; Family                ; Cyclone V                             ;
+; Device                ; 5CSEMA5F31C6                          ;
++-----------------------+---------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                                                   ;
++--------------------------------------------------------------------------------------------------+
+; File Name                                                                                        ;
++--------------------------------------------------------------------------------------------------+
+; C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/game_over_screen2.mif ;
+; C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/start_screen_2.mif    ;
++--------------------------------------------------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Fri Dec 01 16:40:31 2023
+Info: Command: quartus_cdb Connect_Four -c Connect_Four --update_mif
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/game_over_screen2.mif File: C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/game_over_screen2.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/start_screen_2.mif File: C:/Users/mimo2/OneDrive/Desktop/UofT/Yr_2/Fall/ECE241/Project/connect_four/start_screen_2.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 5084 megabytes
+    Info: Processing ended: Fri Dec 01 16:40:41 2023
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:06
+
+
